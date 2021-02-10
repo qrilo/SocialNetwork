@@ -1,0 +1,15 @@
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\bin\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.deps.json
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\bin\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.runtimeconfig.json
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\bin\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.runtimeconfig.dev.json
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\bin\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.dll
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\bin\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.pdb
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\bin\Debug\netcoreapp3.1\SocialNetwork.DAL.dll
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\bin\Debug\netcoreapp3.1\SocialNetwork.DAL.pdb
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.csprojAssemblyReference.cache
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.AssemblyInfoInputs.cache
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.AssemblyInfo.cs
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.csproj.CoreCompileInputs.cache
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.csproj.CopyComplete
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.dll
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.pdb
+F:\ProjectCSharp\SocialNetwork\SocialMigration.DAL.Migration\obj\Debug\netcoreapp3.1\SocialMigration.DAL.Migrations.genruntimeconfig.cache

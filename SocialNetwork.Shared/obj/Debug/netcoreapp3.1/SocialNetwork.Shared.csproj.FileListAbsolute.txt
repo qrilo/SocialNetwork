@@ -1,0 +1,9 @@
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\bin\Debug\netcoreapp3.1\SocialNetwork.Shared.deps.json
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\bin\Debug\netcoreapp3.1\SocialNetwork.Shared.dll
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\bin\Debug\netcoreapp3.1\SocialNetwork.Shared.pdb
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\obj\Debug\netcoreapp3.1\SocialNetwork.Shared.csprojAssemblyReference.cache
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\obj\Debug\netcoreapp3.1\SocialNetwork.Shared.AssemblyInfoInputs.cache
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\obj\Debug\netcoreapp3.1\SocialNetwork.Shared.AssemblyInfo.cs
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\obj\Debug\netcoreapp3.1\SocialNetwork.Shared.csproj.CoreCompileInputs.cache
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\obj\Debug\netcoreapp3.1\SocialNetwork.Shared.dll
+F:\ProjectCSharp\SocialNetwork\SocialNetwork.Shared\obj\Debug\netcoreapp3.1\SocialNetwork.Shared.pdb
