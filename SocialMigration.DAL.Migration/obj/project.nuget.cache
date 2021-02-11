@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MpINqVO67LaFmU4aNvomyQSiudadvmlKZLqugSI4rLD+jlCnHAJF7mnEttaXZOnbQgO/B3DYEBqxKWF2Av5kYA==",
+  "dgSpecHash": "UkN+TYklMLdOlmnQXkjHnyn3CMT/WGcK9FMgd8SY0jtfUjJWtpwGOAKSPNwSbdWtxSFgCsNu4eVKvSGWWIg6xg==",
   "success": true,
-  "projectFilePath": "F:\\ProjectCSharp\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
+  "projectFilePath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dager\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dager\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

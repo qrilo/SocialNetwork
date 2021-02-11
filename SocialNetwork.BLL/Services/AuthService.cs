@@ -27,6 +27,7 @@ namespace SocialNetwork.BLL.Services
         public async Task<bool> GetIsUserExistsAsync(string email)
         {
             var result = await _context.Users
+                .AsNoTracking()
                 .SingleOrDefaultAsync(u => u.Email == email);
 
             return result != null;
@@ -35,6 +36,7 @@ namespace SocialNetwork.BLL.Services
         public async Task<LoginResult> TryLoginUserAsync(UserLoginDTO userLoginDTO)
         {
             var user = await _context.Users
+                .AsNoTracking()
                 .SingleOrDefaultAsync(u => u.Email == userLoginDTO.Email);
 
             if (user != null && BCrypt.Net.BCrypt.Verify(userLoginDTO.Password, user.Password))
@@ -54,13 +56,15 @@ namespace SocialNetwork.BLL.Services
             }                
         }
 
-        public async Task TryRegisterUserAsync(UserDTO userDTO)
+        public async Task<UserDTO> TryRegisterUserAsync(UserDTO userDTO)
         {
             var user = _mapper.Map<UserDTO, User>(userDTO);
 //            user.Role = Shared.Role.User;
             user.Password = BCrypt.Net.BCrypt.HashPassword(userDTO.Password);
-            _context.Add(user);
+            _context.Users.Add(user);
             await _context.SaveChangesAsync();
+
+            return _mapper.Map<User, UserDTO>(user);
         }
     }
 }

@@ -11,9 +11,11 @@ namespace SocialNetwork.DAL.Entities
         public string Email { get; set; }
         public string Password { get; set; }
         public string Name { get; set; }
-     // public DateTime Birthday { get; set; }
         public string Surname { get; set; }
-     // public Sex Sex { get; set; }
-     // public Role Role { get; set; }
+        public DateTime Birthday { get; set; }
+        public Sex Sex { get; set; }
+        public Role Role { get; set; }
+        public bool IsEmailConfirmed { get; set; }
+        public string EmailConfirmationToken { get; set; }
     }
 }

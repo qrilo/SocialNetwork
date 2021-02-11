@@ -1,0 +1,135 @@
+﻿@model SocialNetwork.WEB.ViewModels.UserViewModel;
+@using SocialNetwork.WEB.ViewModels.Shared;
+@{
+    bool MyProfile = (Model.ActionType == ActionType.MyProfile);
+    ViewData["Title"] = (MyProfile ? @Model.Name + " " + @Model.Surname : "My Profile");
+    string action = (MyProfile ? "MyProfile" : "NotMyProfile");
+
+}
+<div class="container">
+    <div class="row">
+        <div class="col-xl-3 col-avatar">
+            <div class="avatar-container">
+                <div>
+                    <img class="avatar" src="~/img/1.png" />
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8 col-info">
+            <div class="name-surname">
+                <h1>@Model.Name  @Model.Surname </h1>
+            </div>
+            <hr/>
+            <div class="user-info">
+                <h6>City: </h6>
+            </div>
+        </div>
+        <div class="col-xl-3 col-friends">
+            <div>
+                @if (MyProfile)
+                {
+                    <a class="btn" asp-controller="Profile" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+                }
+                else
+                {
+                    <a class="btn" href="#" id="addToFriend-btn">Add to friend</a>
+                }
+                <hr style="margin-bottom: 2px;" />
+            </div>
+            <div>
+                <a href="#">
+                    <div class="friends">
+                        <p>Friends</p>
+                    </div>
+                </a>
+                <div style=" display: flex; justify-content: space-around; flex-wrap: wrap;">
+                    @for (int i = 0; i < 6; i++)
+                    {
+                    <div style="padding: 0">
+                        <div class="user-friend">
+                        </div>
+                        <p style="font-size: 12px">Name + Surname</p>
+                    </div>
+
+                    }
+                </div>
+            </div>
+            </div>
+            <div class="col-xl-8 col-wall"><h3>Posts</h3></div>
+        </div>
+</div>
+
+
+@section Styles{
+    <style>
+        body {
+            background-color: #EDF2F6;
+            color: #42404B;
+        }
+        .col-avatar {
+            margin: 0 20px 20px 20px;
+            background: #FFFFFF;
+            height: 250px;
+        }
+        .col-info {
+            margin: 0 20px 20px 20px;
+            background: #FFFFFF;
+            height: 250px;
+        }
+        .col-friends {
+            margin: 0 20px 20px 20px;
+            background: #FFFFFF;
+            height: 400px;
+        }
+        .col-wall {
+            margin: 0 20px 20px 20px;
+            background: #FFFFFF;
+            height: 400px;
+        }
+        .avatar {
+            display: block;
+            margin: 12px auto 0 auto;
+            border-radius: 120px;
+        }
+        .name-surname {
+            padding: 30px 0 0 30px;
+        }
+        .user-info {
+            padding: 10px 0 0 30px;
+        }
+        .btn {
+            width: 100%;
+            background: #4A4C63;
+            color: white;
+            padding: 8px;
+            margin-top: 20px;
+        }
+        .friends {
+            height: 30px;
+            background: #FFFFFF;
+        }
+        .friends p {
+            text-align: center;
+            text-decoration: none;
+            color: #4A4C63;
+        }
+        .friends :hover {
+            text-decoration: none;
+        }
+        .user-friend {
+            height: 50px;
+            margin: 0px 5px 0px 5px;
+            flex: 1 5 calc(100% / 3 - 10px);
+            background: red;
+        }
+
+        @@media (max-width: 1200px) {
+            .name-surname {
+                text-align: center;
+            }
+        }
+
+
+
+    </style>
+}

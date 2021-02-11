@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5vwq51pGGHrbvELDbvT94bREkYrgAcIgd0FTzuMnBamrWgziAgfqY5QOxciQ3dX3izg5cRAqbmM9mjY9xnb9kA==",
+  "dgSpecHash": "qFiy/C78eXxGQCEOuDL6xqYfNvFX31hKJXevoyvnAv8bukl2Vuj1jPIEYiVpgvd/nnlEI9BKKXbT8MPXsG5d+g==",
   "success": true,
-  "projectFilePath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
+  "projectFilePath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dager\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.3\\microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
     "C:\\Users\\dager\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.3\\microsoft.entityframeworkcore.abstractions.5.0.3.nupkg.sha512",

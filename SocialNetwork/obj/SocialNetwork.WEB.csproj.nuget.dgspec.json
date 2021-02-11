@@ -1,0 +1,369 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork\\SocialNetwork.WEB.csproj": {}
+  },
+  "projects": {
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
+        "projectName": "SocialNetwork.DAL.Migrations",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
+        "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.BLL\\SocialNetwork.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.BLL\\SocialNetwork.BLL.csproj",
+        "projectName": "SocialNetwork.BLL",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.BLL\\SocialNetwork.BLL.csproj",
+        "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
+        "projectName": "SocialNetwork.DAL",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
+        "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
+        "projectName": "SocialNetwork.Shared",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
+        "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork\\SocialNetwork.WEB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork\\SocialNetwork.WEB.csproj",
+        "projectName": "SocialNetwork.WEB",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork\\SocialNetwork.WEB.csproj",
+        "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj"
+              },
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.BLL\\SocialNetwork.BLL.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.BLL\\SocialNetwork.BLL.csproj"
+              },
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.11, 3.1.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

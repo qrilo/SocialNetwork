@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
+      "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
       "projectName": "SocialNetwork.Shared",
-      "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
+      "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
       "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
-      "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\obj\\",
+      "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",

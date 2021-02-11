@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ProjectCSharp\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj": {}
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj": {}
   },
   "projects": {
-    "F:\\ProjectCSharp\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj": {
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
         "projectName": "SocialNetwork.DAL.Migrations",
-        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\SocialNetwork.DAL.Migrations.csproj",
         "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
-        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialMigration.DAL.Migration\\obj\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialMigration.DAL.Migration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
-                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj"
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
         "projectName": "SocialNetwork.DAL",
-        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\SocialNetwork.DAL.csproj",
         "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
-        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.DAL\\obj\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj": {
-                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj"
+              "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj": {
+                "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj": {
+    "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
+        "projectUniqueName": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
         "projectName": "SocialNetwork.Shared",
-        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
+        "projectPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\SocialNetwork.Shared.csproj",
         "packagesPath": "C:\\Users\\dager\\.nuget\\packages\\",
-        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork.Shared\\obj\\",
+        "outputPath": "F:\\ProjectCSharp\\SocialNetwork\\SocialNetwork\\SocialNetwork.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dager\\AppData\\Roaming\\NuGet\\NuGet.Config",

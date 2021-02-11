@@ -10,3 +10,15 @@ F:\ProjectCSharp\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialN
 F:\ProjectCSharp\SocialNetwork\SocialNetwork.DAL\bin\Debug\netcoreapp3.1\SocialNetwork.Shared.dll
 F:\ProjectCSharp\SocialNetwork\SocialNetwork.DAL\bin\Debug\netcoreapp3.1\SocialNetwork.Shared.pdb
 F:\ProjectCSharp\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.csproj.CopyComplete
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\bin\Debug\netcoreapp3.1\SocialNetwork.DAL.deps.json
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\bin\Debug\netcoreapp3.1\SocialNetwork.DAL.dll
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\bin\Debug\netcoreapp3.1\SocialNetwork.DAL.pdb
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\bin\Debug\netcoreapp3.1\SocialNetwork.Shared.dll
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\bin\Debug\netcoreapp3.1\SocialNetwork.Shared.pdb
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.csprojAssemblyReference.cache
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.AssemblyInfoInputs.cache
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.AssemblyInfo.cs
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.csproj.CoreCompileInputs.cache
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.csproj.CopyComplete
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.dll
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork.DAL\obj\Debug\netcoreapp3.1\SocialNetwork.DAL.pdb
