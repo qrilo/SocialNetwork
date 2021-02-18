@@ -1,0 +1,34 @@
+﻿@model SocialNetwork.WEB.ViewModels.UserViewModel;
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+
+<form method="post" asp-controller="Profile" asp-action="Edit">
+    <div class="validation" asp-validation-summary="ModelOnly"></div>
+
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input autocomplete="off" type="text" class="form-control" asp-for="Name" placeholder="Name">
+        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "validation" })
+    </div>
+
+    <div class="form-group">
+        <label for="Surname">Surname</label>
+        <input autocomplete="off" type="text" class="form-control" asp-for="Surname" placeholder="Surname">
+        @Html.ValidationMessageFor(m => m.Surname, "", new { @class = "validation" })
+    </div>
+
+    <div class="form-group">
+        <label for="Birthday">Birthday</label>
+        <input type="date" class="form-control" asp-for="Birthday">
+        @Html.ValidationMessageFor(m => m.Birthday, "", new { @class = "validation" })
+    </div>
+
+    <div class="d-flex justify-content-end">
+        <button class="btn btn-primary" id="editBtn">Edit</button>
+    </div>
+</form>

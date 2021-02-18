@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -27,7 +28,7 @@
                                     <a class="nav-link text-dark" asp-controller="Profile" asp-action="Index" asp-route-id="@User.FindFirst("UserId").Value">My Profile</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="" asp-action="">Settings</a>
+                                    <a class="nav-link text-dark" asp-controller="Profile" asp-action="Friends" asp-route-id ="@User.FindFirst("UserId").Value">Friends</a>
                                 </li>
                             }
                         </ul>

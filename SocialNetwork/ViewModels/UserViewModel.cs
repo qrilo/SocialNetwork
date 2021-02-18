@@ -13,6 +13,6 @@ namespace SocialNetwork.WEB.ViewModels
         public string Name { get; set; }
         public string Surname { get; set; }
         public ActionType ActionType { get; set; }
-
+        public DateTime Birthday { get; set; }
     }
 }

@@ -85,7 +85,7 @@ namespace SocialNetwork.WEB.Controllers
             }
 
             var model = new UserRegisterViewModel();
- //         model.Birthday = new DateTime(2000, 1, 1);
+          model.Birthday = new DateTime(2000, 1, 1);
 
             return View(model);
         }
@@ -96,11 +96,11 @@ namespace SocialNetwork.WEB.Controllers
         {
             if (ModelState.IsValid)
             {
-                //if (model.Birthday < new DateTime(1900, 1, 1) || DateTime.Now.Year - model.Birthday.Year <= 5)
-                //{
-                //    ModelState.AddModelError("", "Invalid birthday");
-                //    return View(model);
-                //}
+                if (model.Birthday < new DateTime(1900, 1, 1) || DateTime.Now.Year - model.Birthday.Year <= 5)
+                {
+                    ModelState.AddModelError("", "Invalid birthday");
+                    return View(model);
+                }
 
                 var userExist = await _authService.GetIsUserExistsAsync(model.Email);
 

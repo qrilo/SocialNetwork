@@ -23,12 +23,11 @@ namespace SocialNetwork.BLL.Services
         }
         public async Task<string> GenerateToken(string email)
         {
-            string token = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
+            string token = Guid.NewGuid().ToString();
             var user = await _context.Users
                 .SingleOrDefaultAsync(u => u.Email == email);
 
             user.EmailConfirmationToken = token;
-            //_context.Users.Update(user);
             await _context.SaveChangesAsync();
 
             return token;
@@ -40,11 +39,7 @@ namespace SocialNetwork.BLL.Services
                 .AsNoTracking()
                 .SingleOrDefaultAsync(u => u.Email == email);
 
-            if (user.IsEmailConfirmed)
-            {
-                return true;
-            }
-            return false;
+            return user.IsEmailConfirmed;
         }
 
         public async Task SendEmail(string email, string subject, string message)

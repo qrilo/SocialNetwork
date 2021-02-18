@@ -9,6 +9,7 @@ namespace SocialNetwork.BLL.Contracts
     public interface IUserService
     {
         public Task<UserDTO> GetUserAsync(int id);
+        public Task UpdateUserAsync(UserDTO userDTO);
 
     }
 }

@@ -32,5 +32,13 @@ namespace SocialNetwork.BLL.Services
 
             return dto;
         }
+
+        public async Task UpdateUserAsync(UserDTO userDTO)
+        {
+            var user = _mapper.Map<UserDTO, User>(userDTO);
+
+            _context.Update(user);
+            await _context.SaveChangesAsync();
+        }
     }
 }

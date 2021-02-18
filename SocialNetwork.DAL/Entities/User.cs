@@ -19,3 +19,4 @@ namespace SocialNetwork.DAL.Entities
         public string EmailConfirmationToken { get; set; }
     }
 }
+ 

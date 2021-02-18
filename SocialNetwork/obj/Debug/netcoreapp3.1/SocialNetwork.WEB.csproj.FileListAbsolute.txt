@@ -748,3 +748,5 @@ F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork\bin\Debug\netcoreapp3
 F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork\bin\Debug\netcoreapp3.1\MimeKit.dll
 F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index.cshtml.g.cs
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Friends.cshtml.g.cs
+F:\ProjectCSharp\SocialNetwork\SocialNetwork\SocialNetwork\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Edit.cshtml.g.cs
